@@ -260,7 +260,13 @@ header nav ul li a.active img{
     th { 
       background: #ABDD93; 
     } 
-
+	.tableFixHead tbody::-webkit-scrollbar{
+		width:3px;
+		height:5px;
+	}
+	.tableFixHead tbody::-webkit-scrollbar-thumb {
+		background: green
+	}​ 
 /* Media Queries */
 @media (min-width : 1125px) and (max-width : 1200px) {
 	
